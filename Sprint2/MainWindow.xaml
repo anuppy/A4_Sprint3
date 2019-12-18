@@ -13,24 +13,26 @@
         <Button x:Name="btn_Ende" Content="Ende" HorizontalAlignment="Left" Height="27" Margin="10,365,0,0" VerticalAlignment="Top" Width="130" Click="btn_Ende_Click" ToolTip="Hier beenden Sie das gesamte Programm!"/>
         <Image Name="img_Image" HorizontalAlignment="Left" Height="175" Margin="456,78,0,0" VerticalAlignment="Top" Width="203" />
 
-        <Label Name="label1"  HorizontalAlignment="Left" Height="27" Margin="159,39,0,0" VerticalAlignment="Top" Width="90"/>
-        <TextBox Name="tb_1" Visibility="Hidden" HorizontalAlignment="Left" Height="27" Margin="264,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie nur Zahlen ein!" />
+        <Label Name="label1"  HorizontalAlignment="Left" Height="27" Margin="159,7,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox Name="tb_1" Visibility="Hidden" HorizontalAlignment="Left" Height="27" Margin="268,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie nur Zahlen ein!" />
 
-        <Label Name="label2"  HorizontalAlignment="Left" Height="31" Margin="159,76,0,0" VerticalAlignment="Top" Width="90"/>
-        <TextBox Name="tb_2"   Visibility="Hidden" HorizontalAlignment="Left" Height="31" Margin="264,76,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie nur Zahlen ein!"/>
+        <Label Name="label2"  HorizontalAlignment="Left" Height="31" Margin="159,39,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox Name="tb_2"   Visibility="Hidden" HorizontalAlignment="Left" Height="31" Margin="268,39,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie nur Zahlen ein!"/>
 
-        <Label Name="label3"  HorizontalAlignment="Left" Height="31" Margin="159,118,0,0" VerticalAlignment="Top" Width="90"/>
-        <TextBox Name="tb_3" Visibility="Hidden" HorizontalAlignment="Left" Height="31" Margin="264,118,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie nur Zahlen ein!"/>
+        <Label Name="label3"  HorizontalAlignment="Left" Height="31" Margin="159,76,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox Name="tb_3" Visibility="Hidden" HorizontalAlignment="Left" Height="31" Margin="268,76,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie nur Zahlen ein!"/>
 
-        <Label Name="label4"  HorizontalAlignment="Left" Height="31" Margin="159,158,0,0" VerticalAlignment="Top" Width="90"/>
-        <TextBox Name="tb_4" Visibility="Hidden" HorizontalAlignment="Left" Height="31" Margin="264,158,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie nur Zahlen ein!"/>
+        <Label Name="label4"  HorizontalAlignment="Left" Height="31" Margin="159,113,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox Name="tb_4" Visibility="Hidden" HorizontalAlignment="Left" Height="31" Margin="268,113,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie nur Zahlen ein!"/>
 
+        <Label x:Name="lb_KgPreis"  HorizontalAlignment="Left" Height="28" Margin="159,150,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="tb_KgPreis" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="268,150,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie den Preis in € pro Kg ein. Bitte nur Zahlen eingeben."/>
 
-        <Label x:Name="lb_Dichte"  HorizontalAlignment="Left" Height="28" Margin="159,238,0,0" VerticalAlignment="Top" Width="116"/>
-        <TextBox x:Name="tb_Dichte" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="264,238,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie die Dichte des Materials ein. Bitte nur Zahlen eingeben."/>
+        <Label x:Name="lb_Dichte"  HorizontalAlignment="Left" Height="28" Margin="159,187,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="tb_Dichte" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="268,187,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie die Dichte des Materials ein. Bitte nur Zahlen eingeben."/>
 
-        <Label x:Name="lb_Laenge" HorizontalAlignment="Left" Height="28" Margin="159,276,0,0" VerticalAlignment="Top" Width="116"/>
-        <TextBox x:Name="tb_Laenge" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="264,276,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie die Länge des Profils ein. Bitte nur Zahlen eingeben."/>
+        <Label x:Name="lb_Laenge" HorizontalAlignment="Left" Height="28" Margin="159,223,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="tb_Laenge" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="268,223,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="149" TextChanged="testIfNumeric" ToolTip="Bitte geben Sie die Länge des Profils ein. Bitte nur Zahlen eingeben."/>
 
 
 
@@ -54,7 +56,7 @@
 
         <Label x:Name="profilName" HorizontalAlignment="Left" Height="40" Margin="456,35,0,0" VerticalAlignment="Top" Width="141" FontSize="18" FontWeight="Bold"/>
 
-        <Grid HorizontalAlignment="Left" Height="100" Margin="169,309,0,0" VerticalAlignment="Top" Width="481" >
+        <Grid HorizontalAlignment="Left" Height="131" Margin="169,278,0,0" VerticalAlignment="Top" Width="481" >
             <Label Name="lb_Flaeche"  HorizontalAlignment="Left" Height="27" Margin="-11,3,0,0" VerticalAlignment="Top" Width="108" Grid.Row="1"/>
             <TextBox Name="tb_Flaeche" Visibility="Hidden" HorizontalAlignment="Left" Height="27" Margin="121,3,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"  Grid.Row="1" IsReadOnly = "True" ToolTip="Fläche Ihres berechneten Profils"/>
 
@@ -71,12 +73,16 @@
             <TextBox x:Name="tb_out2" Visibility="Hidden" HorizontalAlignment="Left" Height="27" Margin="347,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Grid.Row="1" IsReadOnly = "True" ToolTip="Flächenträgheitsmoment Ihres berechneten Profils."/>
 
             <Label x:Name="lb_out3" Content="Schwerpunkt" Visibility="Hidden"  HorizontalAlignment="Left" Height="27" Margin="254,64,0,0" VerticalAlignment="Top" Width="84"/>
-            <TextBox x:Name="tb_out3" Visibility="Hidden" HorizontalAlignment="Left" Height="27" Margin="347,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" IsReadOnly = "True" ToolTip="Flächenträgheitsmoment Ihres berechneten Profils."/>
+            <TextBox x:Name="tb_out3" Visibility="Hidden" HorizontalAlignment="Left" Height="27" Margin="347,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" IsReadOnly = "True" ToolTip="Schwerpunkt Ihres berechneten Profils."/>
+
+            <Label x:Name="lb_Preis"  Content="ProfilPreis" Visibility="Hidden" HorizontalAlignment="Left" Height="27" Margin="262,94,0,0" VerticalAlignment="Top" Width="83"/>
+            <TextBox x:Name="tb_Preis"  HorizontalAlignment="Left" Height="27" Margin="347,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Grid.Row="1" Visibility="Hidden" IsReadOnly = "True" ToolTip="Preis des berechneten Profil."/>
+
         </Grid>
 
-        <Grid x:Name="lb_Willkommen" Visibility="Visible" HorizontalAlignment="Left" Height="179" Margin="190,10,0,0" VerticalAlignment="Top" Width="261">
+        <Grid x:Name="lb_Willkommen" Visibility="Visible" HorizontalAlignment="Left" Height="199" Margin="190,10,0,0" VerticalAlignment="Top" Width="261">
             <Label Content="Willkommen" HorizontalAlignment="Left" VerticalAlignment="Top" Height="31" Width="164" Margin="10,10,0,0" FontSize="18"/>
-            <Label Content="In diesem Programm können Sie&#xD;&#xA;die Flächen, Volumina, Massen und &#xD;&#xA;Flächenträgheitsmomente ausgewählter &#xD;&#xA;Profile berechnen. &#xD;&#xA;&#xD;&#xA;Die Eingaben werden in [mm] und [kg]&#xD;&#xA;erwartet.&#xD;&#xA;&#xD;&#xA; " HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Height="128" Width="241"/>
+            <Label Content="In diesem Programm können Sie&#xD;&#xA;die Flächen, Volumina, Massen,&#xD;&#xA;Flächenträgheitsmomente, Schwerpunkt &#xD;&#xA;und Profil Preis ausgewählter Profile&#xD;&#xA;berechnen. Zusätzlich kann das berechnete &#xD;&#xA;Profil in Catia gezeichnet werden. &#xD;&#xA;&#xD;&#xA;Die Eingaben werden in [mm], [kg] und&#xD;&#xA;[€] erwartet.&#xD;&#xA;&#xD;&#xA; " HorizontalAlignment="Left" Margin="10,41,0,-26" VerticalAlignment="Top" Height="164" Width="241"/>
         </Grid>
 
 

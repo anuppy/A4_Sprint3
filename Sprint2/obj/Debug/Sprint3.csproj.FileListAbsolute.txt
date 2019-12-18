@@ -26,3 +26,17 @@ C:\Users\MSI\Desktop\Sprint3 - Kopie (2)\Sprint2\obj\Debug\Sprint2.Properties.Re
 C:\Users\MSI\Desktop\Sprint3 - Kopie (2)\Sprint2\obj\Debug\Sprint3.csproj.GenerateResource.cache
 C:\Users\MSI\Desktop\Sprint3 - Kopie (2)\Sprint2\obj\Debug\Sprint2.exe
 C:\Users\MSI\Desktop\Sprint3 - Kopie (2)\Sprint2\obj\Debug\Sprint2.pdb
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\bin\Debug\Sprint2.exe.config
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\bin\Debug\Sprint2.exe
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\bin\Debug\Sprint2.pdb
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\Sprint3.csprojAssemblyReference.cache
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\MainWindow.g.cs
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\App.g.cs
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\Sprint2_MarkupCompile.cache
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\Sprint2_MarkupCompile.lref
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\MainWindow.baml
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\Sprint2.g.resources
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\Sprint2.Properties.Resources.resources
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\Sprint3.csproj.GenerateResource.cache
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\Sprint2.exe
+C:\Users\georg\Desktop\Abgabe 3\A4_Sprint3\Sprint2\obj\Debug\Sprint2.pdb

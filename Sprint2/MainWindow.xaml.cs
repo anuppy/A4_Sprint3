@@ -537,6 +537,10 @@ namespace Sprint3
             double mas;
             mas = Convert.ToDouble(tb_Volumen.Text) * Convert.ToDouble(tb_Dichte.Text);
             tb_Masse.Text = Convert.ToString(Math.Round(mas, 6));
+
+            double pre;
+            pre = Convert.ToDouble(tb_Masse.Text) * Convert.ToDouble(tb_KgPreis.Text);
+            tb_Preis.Text = Convert.ToString(Math.Round(pre, 6));
         }
 
         //BERECHNE RECHTECK
@@ -805,10 +809,14 @@ namespace Sprint3
             lb_out1.Visibility = Visibility.Hidden;
             lb_out2.Visibility = Visibility.Hidden;
             lb_out3.Visibility = Visibility.Hidden;
+            lb_Preis.Visibility = Visibility.Hidden;
+            lb_KgPreis.Visibility = Visibility.Hidden;
 
             tb_out1.Visibility = Visibility.Hidden;
             tb_out2.Visibility = Visibility.Hidden;
             tb_out3.Visibility = Visibility.Hidden;
+            tb_Preis.Visibility = Visibility.Hidden;
+            tb_KgPreis.Visibility = Visibility.Hidden;
         }
 
 
@@ -843,6 +851,14 @@ namespace Sprint3
 
             lb_out3.Visibility = Visibility.Visible;
             tb_out3.Visibility = Visibility.Visible;
+
+            lb_Preis.Content = "Profil Preis [€]";
+            lb_Preis.Visibility = Visibility.Visible;
+            tb_Preis.Visibility = Visibility.Visible;
+
+            lb_KgPreis.Content = "Materialpreis [€/kg]";
+            lb_KgPreis.Visibility = Visibility.Visible;
+            tb_KgPreis.Visibility = Visibility.Visible;
 
 
             tb_1.Text = ""; tb_2.Text = ""; tb_3.Text = ""; tb_4.Text = "";
@@ -881,6 +897,14 @@ namespace Sprint3
             label4.Visibility = Visibility.Hidden;
             tb_4.Visibility = Visibility.Hidden;
 
+            lb_Preis.Content = "Profil Preis [€]";
+            lb_Preis.Visibility = Visibility.Visible;
+            tb_Preis.Visibility = Visibility.Visible;
+
+            lb_KgPreis.Content = "Materialpreis [€/kg]";
+            lb_KgPreis.Visibility = Visibility.Visible;
+            tb_KgPreis.Visibility = Visibility.Visible;
+
         }
 
         //I-Profil
@@ -915,6 +939,14 @@ namespace Sprint3
             label4.Visibility = Visibility.Visible;
             label4.Content = "b [mm]";
             tb_4.Visibility = Visibility.Visible;
+
+            lb_Preis.Content = "Profil Preis [€]";
+            lb_Preis.Visibility = Visibility.Visible;
+            tb_Preis.Visibility = Visibility.Visible;
+
+            lb_KgPreis.Content = "Materialpreis [€/kg]";
+            lb_KgPreis.Visibility = Visibility.Visible;
+            tb_KgPreis.Visibility = Visibility.Visible;
 
         }
 
@@ -951,6 +983,14 @@ namespace Sprint3
             label4.Content = "b [mm]";
             tb_4.Visibility = Visibility.Visible;
 
+            lb_Preis.Content = "Profil Preis [€]";
+            lb_Preis.Visibility = Visibility.Visible;
+            tb_Preis.Visibility = Visibility.Visible;
+
+            lb_KgPreis.Content = "Materialpreis [€/kg]";
+            lb_KgPreis.Visibility = Visibility.Visible;
+            tb_KgPreis.Visibility = Visibility.Visible;
+
         }
 
         //Kreis
@@ -985,6 +1025,14 @@ namespace Sprint3
             label4.Visibility = Visibility.Hidden;
             label4.Content = "";
             tb_4.Visibility = Visibility.Hidden;
+
+            lb_Preis.Content = "Profil Preis [€]";
+            lb_Preis.Visibility = Visibility.Visible;
+            tb_Preis.Visibility = Visibility.Visible;
+
+            lb_KgPreis.Content = "Materialpreis [€/kg]";
+            lb_KgPreis.Visibility = Visibility.Visible;
+            tb_KgPreis.Visibility = Visibility.Visible;
 
         }
 
@@ -1022,6 +1070,14 @@ namespace Sprint3
             label4.Content = "";
             tb_4.Visibility = Visibility.Hidden;
 
+            lb_Preis.Content = "Profil Preis [€]";
+            lb_Preis.Visibility = Visibility.Visible;
+            tb_Preis.Visibility = Visibility.Visible;
+
+            lb_KgPreis.Content = "Materialpreis [€/kg]";
+            lb_KgPreis.Visibility = Visibility.Visible;
+            tb_KgPreis.Visibility = Visibility.Visible;
+
         }
 
         //Dreieck
@@ -1056,6 +1112,15 @@ namespace Sprint3
             label4.Visibility = Visibility.Hidden;
             label4.Content = "";
             tb_4.Visibility = Visibility.Hidden;
+
+            lb_Preis.Content = "Profil Preis [€]";
+            lb_Preis.Visibility = Visibility.Visible;
+            tb_Preis.Visibility = Visibility.Visible;
+
+            lb_KgPreis.Content = "Materialpreis [€/kg]";
+            lb_KgPreis.Visibility = Visibility.Visible;
+            tb_KgPreis.Visibility = Visibility.Visible;
+
 
         }
 
