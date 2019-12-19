@@ -9,7 +9,7 @@
     <Grid Margin="-2,0,2,0">
 
         <Button x:Name="btn_Rechne" Content="Rechne"  HorizontalAlignment="Left" Height="27" Margin="657,364,0,0" VerticalAlignment="Top" Width="110" Click="btn_Rechne_Click"  IsEnabled="False" ToolTip="Hier berechnen Sie das Profil!"/>
-        <Button x:Name="btn_Catia" Content="Catia"  HorizontalAlignment="Left" Height="27" Margin="657,323,0,0" VerticalAlignment="Top" Width="110" Click="btn_Catia_Click"  IsEnabled="True" ToolTip="Das Profil zu Catia Part exportieren!"/>
+        <Button x:Name="btn_Catia" Content="Catia"  HorizontalAlignment="Left" Height="27" Margin="657,323,0,0" VerticalAlignment="Top" Width="110" Click="btn_Catia_Click"  IsEnabled="False" ToolTip="Das Profil zu Catia Part exportieren!"/>
         <Button x:Name="btn_Ende" Content="Ende" HorizontalAlignment="Left" Height="27" Margin="10,365,0,0" VerticalAlignment="Top" Width="130" Click="btn_Ende_Click" ToolTip="Hier beenden Sie das gesamte Programm!"/>
         <Image Name="img_Image" HorizontalAlignment="Left" Height="175" Margin="456,78,0,0" VerticalAlignment="Top" Width="203" />
 

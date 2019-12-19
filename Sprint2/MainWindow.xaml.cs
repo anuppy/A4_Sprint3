@@ -800,6 +800,7 @@ namespace Sprint3
             tb_Masse.Visibility = Visibility.Hidden;
 
             btn_Rechne.IsEnabled = false;
+            btn_Catia.IsEnabled = false;
 
             lb_Flaeche.Visibility = Visibility.Hidden;
             tb_Flaeche.Visibility = Visibility.Hidden;
@@ -835,6 +836,7 @@ namespace Sprint3
             lb_Laenge.Content = "Länge [mm]";
 
             btn_Rechne.IsEnabled = true;
+            btn_Catia.IsEnabled = true;
 
             lb_Volumen.Content = "Volumen [mm^3]";
             lb_Flaeche.Content = "Flaeche [mm^2]";
